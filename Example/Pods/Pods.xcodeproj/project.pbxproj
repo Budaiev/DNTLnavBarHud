@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3FC27C54661C5AAEC026262A83D8E4 /* NvcHudAble.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FE5C2226A39549A209784B80D5204A /* NvcHudAble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23CD692987A25062A79AC7296B550C9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2D206241521A2D15EB2AEA8DC2B5306F /* DNTLnavBarHud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BDB18A3B5C16B3379D1B135FC9B83C /* DNTLnavBarHud-dummy.m */; };
+		3114D45864FB60128668F73F4FA1919E /* NvcTitleAndHud.xib in Sources */ = {isa = PBXBuildFile; fileRef = C61492FAEF37CE8B8067E365D6B0C19B /* NvcTitleAndHud.xib */; };
+		5EBB2D977BC9A9FD4219FD6A3A831D61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6E45B00287868C7A4FE5CEFD5860FF6E /* Pods-DNTLnavBarHud_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C1B5980BD04C926CEA95ACC23D0939 /* Pods-DNTLnavBarHud_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9149B2D3ED8FA3271DBE5D70DC82AA1E /* NvcTitleAndHud.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61492FAEF37CE8B8067E365D6B0C19B /* NvcTitleAndHud.xib */; };
+		9E7F9405494652AED56ACB894FD4ECA3 /* BaseVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E670C8DC5D978E02075EBA8FD29B032 /* BaseVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A42F73A34C72762C3F1F3839EEB1C9D8 /* UIViewController+NvcHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B89DFCD10861989AA0CBC7D464C86AA /* UIViewController+NvcHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4496DD50B87049D6F8E35525A0AEBD9 /* NvcTitleAndHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EED715D039521F0C9B7680C52D5343 /* NvcTitleAndHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9822585AD6C7B6E776973FAF4EF1F29 /* Pods-DNTLnavBarHud_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C25549A830EF848000B90A3400EE5 /* Pods-DNTLnavBarHud_Tests-dummy.m */; };
+		CAC29887D41F6C7E5B6E1D88F6DBC5ED /* Pods-DNTLnavBarHud_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373987FE8BFF3F796DF6B0BE98598F78 /* Pods-DNTLnavBarHud_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA7EA0E3217C948A378AE032EEAD07C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F03BA88310C49D60C5B1A064D8A167 /* ReplaceMe.m */; };
+		CD969E887C159E4C5DD6CF4526931AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D3F58AA8621302032B9B0B82964D3DAC /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C0718101C8F85091163AFA9D638C9 /* BaseVC.m */; };
+		D83C92AE987927D4FB78BE6BCF1D4239 /* Pods-DNTLnavBarHud_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E11C3E7048BFD771085975EE60488B6 /* Pods-DNTLnavBarHud_Example-dummy.m */; };
+		DA7D044BB046EA14E5FB9E327DF51F7A /* DNTLnavBarHud-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BADC0226D2A76277A2A146207E016FAB /* DNTLnavBarHud-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5119C8F22025017BA36F93393F0875D /* DNTLnavBarHud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA9DED37287F7F5FDF8B4889DD15D32D /* DNTLnavBarHud.bundle */; };
+		EB179B7140DEAFF2A34BAAB05D1644CA /* NvcTitleAndHud.m in Sources */ = {isa = PBXBuildFile; fileRef = AB19D03E42C2D9CCCFFA779F343F35CD /* NvcTitleAndHud.m */; };
+		F3B7A39E87812F4D185C1560725166E2 /* UIViewController+NvcHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA34470A89C97432C47407D69D85C8C /* UIViewController+NvcHud.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		489B4457EC2F53E1BC77908BE45E654F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6729B94109123AE164F7FC3CB7BFBB;
+			remoteInfo = DNTLnavBarHud;
+		};
+		5400FFD6960135F57AB41822AF6AF0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF39138FF65A3856FEC081435513587;
+			remoteInfo = "DNTLnavBarHud-DNTLnavBarHud";
+		};
+		9087E71E7CC17E2D38E4D038281A338D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7DA0D4889E5EE8DCFC763825DCA8CD;
+			remoteInfo = "Pods-DNTLnavBarHud_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DFFABAC27488097C52648DE4334980 /* DNTLnavBarHud.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNTLnavBarHud.xcconfig; sourceTree = "<group>"; };
+		083F53EC286D0D536D465D0166738105 /* Pods-DNTLnavBarHud_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNTLnavBarHud_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0ACDE845F837676142C18C63A1F21609 /* Pods-DNTLnavBarHud_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNTLnavBarHud_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0AE4883EE6853880B920D739B3DBE7D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0E11C3E7048BFD771085975EE60488B6 /* Pods-DNTLnavBarHud_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNTLnavBarHud_Example-dummy.m"; sourceTree = "<group>"; };
+		15647444913ADDB8B27E86CE1F59C8D4 /* Pods-DNTLnavBarHud_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTLnavBarHud_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2E670C8DC5D978E02075EBA8FD29B032 /* BaseVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseVC.h; path = DNTLnavBarHud/Classes/BaseVC.h; sourceTree = "<group>"; };
+		30EED715D039521F0C9B7680C52D5343 /* NvcTitleAndHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvcTitleAndHud.h; path = DNTLnavBarHud/Classes/NvcTitleAndHud.h; sourceTree = "<group>"; };
+		373987FE8BFF3F796DF6B0BE98598F78 /* Pods-DNTLnavBarHud_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNTLnavBarHud_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3BA34470A89C97432C47407D69D85C8C /* UIViewController+NvcHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+NvcHud.m"; path = "DNTLnavBarHud/Classes/UIViewController+NvcHud.m"; sourceTree = "<group>"; };
+		519032558A844DAA11BA34902E441671 /* Pods-DNTLnavBarHud_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNTLnavBarHud_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		711F6A66CB82549C6463630A6E6D95E8 /* Pods-DNTLnavBarHud_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNTLnavBarHud_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76AB4E8A63BDCA1E142ACE59FDADF59D /* Pods-DNTLnavBarHud_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTLnavBarHud_Tests-resources.sh"; sourceTree = "<group>"; };
+		81EC3358F35A57838027E6B98508FDE2 /* Pods-DNTLnavBarHud_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNTLnavBarHud_Example.modulemap"; sourceTree = "<group>"; };
+		8230DF78306CFE54C687CFB1198A30FF /* DNTLnavBarHud.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DNTLnavBarHud.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85FE5C2226A39549A209784B80D5204A /* NvcHudAble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvcHudAble.h; path = DNTLnavBarHud/Classes/NvcHudAble.h; sourceTree = "<group>"; };
+		87BDB18A3B5C16B3379D1B135FC9B83C /* DNTLnavBarHud-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DNTLnavBarHud-dummy.m"; sourceTree = "<group>"; };
+		8B89DFCD10861989AA0CBC7D464C86AA /* UIViewController+NvcHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NvcHud.h"; path = "DNTLnavBarHud/Classes/UIViewController+NvcHud.h"; sourceTree = "<group>"; };
+		8F33ED9DA8006123C7F1C42680854688 /* DNTLnavBarHud.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DNTLnavBarHud.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94BAA9CBB69772DC830D6519519B2813 /* Pods_DNTLnavBarHud_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DNTLnavBarHud_Example.framework; path = "Pods-DNTLnavBarHud_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CD8DCF6617108A101C91B70B974288 /* Pods-DNTLnavBarHud_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTLnavBarHud_Example-resources.sh"; sourceTree = "<group>"; };
+		9596B434EEF092025FB958FC986B85A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		96C1B5980BD04C926CEA95ACC23D0939 /* Pods-DNTLnavBarHud_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNTLnavBarHud_Example-umbrella.h"; sourceTree = "<group>"; };
+		9AEE49E0E760FE0BD1E4F7ACCE2C6C98 /* Pods_DNTLnavBarHud_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DNTLnavBarHud_Tests.framework; path = "Pods-DNTLnavBarHud_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B887900210062B566F879BE21504BA3 /* DNTLnavBarHud-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNTLnavBarHud-prefix.pch"; sourceTree = "<group>"; };
+		9C7C0718101C8F85091163AFA9D638C9 /* BaseVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseVC.m; path = DNTLnavBarHud/Classes/BaseVC.m; sourceTree = "<group>"; };
+		A26DBAD51EEABC77BAD5D918572F930F /* Pods-DNTLnavBarHud_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTLnavBarHud_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A2AE7CEAE7ACF0536EAFF31C1E9C7C8E /* Pods-DNTLnavBarHud_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNTLnavBarHud_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5CB18EBDE53B1C8A0EBD2A8D4DBDCE1 /* Pods-DNTLnavBarHud_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNTLnavBarHud_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A63F01CE7D8926B48775A59A769562CC /* Pods-DNTLnavBarHud_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNTLnavBarHud_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6E68E6A80DC7A55ED2F6F48AF597CCA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB19D03E42C2D9CCCFFA779F343F35CD /* NvcTitleAndHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NvcTitleAndHud.m; path = DNTLnavBarHud/Classes/NvcTitleAndHud.m; sourceTree = "<group>"; };
+		B623C3B308F1AD87EDBA2193A3659AB2 /* Pods-DNTLnavBarHud_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNTLnavBarHud_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BADC0226D2A76277A2A146207E016FAB /* DNTLnavBarHud-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNTLnavBarHud-umbrella.h"; sourceTree = "<group>"; };
+		BCBF722601ACB8B0E454434058E9C4E5 /* ResourceBundle-DNTLnavBarHud-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DNTLnavBarHud-Info.plist"; sourceTree = "<group>"; };
+		C1F03BA88310C49D60C5B1A064D8A167 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DNTLnavBarHud/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C45C25549A830EF848000B90A3400EE5 /* Pods-DNTLnavBarHud_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNTLnavBarHud_Tests-dummy.m"; sourceTree = "<group>"; };
+		C61492FAEF37CE8B8067E365D6B0C19B /* NvcTitleAndHud.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NvcTitleAndHud.xib; path = DNTLnavBarHud/Classes/NvcTitleAndHud.xib; sourceTree = "<group>"; };
+		CA9DED37287F7F5FDF8B4889DD15D32D /* DNTLnavBarHud.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DNTLnavBarHud.bundle; path = "DNTLnavBarHud-DNTLnavBarHud.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8013C080B6E1274A47E926074A5E5CD /* Pods-DNTLnavBarHud_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNTLnavBarHud_Tests.modulemap"; sourceTree = "<group>"; };
+		DACB6486173B78BDC364CBDA3AA48A31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA9DD75F96A7F0D7A2C5D2A6A4E16B1 /* DNTLnavBarHud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DNTLnavBarHud.framework; path = DNTLnavBarHud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37DE79B71890613392FACF7FA36DF33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		108F5DEBA4923FA2B8B8BFBB5F725EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E54361687FDCC01E510533B206E2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD969E887C159E4C5DD6CF4526931AC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D255C7F08572B58A3A1F29F69E5E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBB2D977BC9A9FD4219FD6A3A831D61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19415ACE83E3F62EC97D863E5229788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CD692987A25062A79AC7296B550C9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36EF3A4E55844E8AD52DF35893AD05B2 /* Pods-DNTLnavBarHud_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F37DE79B71890613392FACF7FA36DF33 /* Info.plist */,
+				D8013C080B6E1274A47E926074A5E5CD /* Pods-DNTLnavBarHud_Tests.modulemap */,
+				A63F01CE7D8926B48775A59A769562CC /* Pods-DNTLnavBarHud_Tests-acknowledgements.markdown */,
+				711F6A66CB82549C6463630A6E6D95E8 /* Pods-DNTLnavBarHud_Tests-acknowledgements.plist */,
+				C45C25549A830EF848000B90A3400EE5 /* Pods-DNTLnavBarHud_Tests-dummy.m */,
+				A26DBAD51EEABC77BAD5D918572F930F /* Pods-DNTLnavBarHud_Tests-frameworks.sh */,
+				76AB4E8A63BDCA1E142ACE59FDADF59D /* Pods-DNTLnavBarHud_Tests-resources.sh */,
+				373987FE8BFF3F796DF6B0BE98598F78 /* Pods-DNTLnavBarHud_Tests-umbrella.h */,
+				A2AE7CEAE7ACF0536EAFF31C1E9C7C8E /* Pods-DNTLnavBarHud_Tests.debug.xcconfig */,
+				A5CB18EBDE53B1C8A0EBD2A8D4DBDCE1 /* Pods-DNTLnavBarHud_Tests.release.xcconfig */,
+			);
+			name = "Pods-DNTLnavBarHud_Tests";
+			path = "Target Support Files/Pods-DNTLnavBarHud_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B4E136B1119703D2F874318E65D6D5F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8230DF78306CFE54C687CFB1198A30FF /* DNTLnavBarHud.podspec */,
+				0AE4883EE6853880B920D739B3DBE7D7 /* LICENSE */,
+				9596B434EEF092025FB958FC986B85A3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		70FBD2E2D611F42D4BB8E3A8844492AA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC27281A69F231A77286A19812D63516 /* DNTLnavBarHud */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7A704DA52B05C564D0A3D5036C6561D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA9DED37287F7F5FDF8B4889DD15D32D /* DNTLnavBarHud.bundle */,
+				DDA9DD75F96A7F0D7A2C5D2A6A4E16B1 /* DNTLnavBarHud.framework */,
+				94BAA9CBB69772DC830D6519519B2813 /* Pods_DNTLnavBarHud_Example.framework */,
+				9AEE49E0E760FE0BD1E4F7ACCE2C6C98 /* Pods_DNTLnavBarHud_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				70FBD2E2D611F42D4BB8E3A8844492AA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7A704DA52B05C564D0A3D5036C6561D9 /* Products */,
+				A695FC1AD9DB2D19CCE5363111B78900 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9ED860C9EBDA227C516DBD9B7262709A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A695FC1AD9DB2D19CCE5363111B78900 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B26F3D5092FA3CEF0019C5FC59C4D3D0 /* Pods-DNTLnavBarHud_Example */,
+				36EF3A4E55844E8AD52DF35893AD05B2 /* Pods-DNTLnavBarHud_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A934691B02B2ED5FD66B0342D3BDC592 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F33ED9DA8006123C7F1C42680854688 /* DNTLnavBarHud.modulemap */,
+				07DFFABAC27488097C52648DE4334980 /* DNTLnavBarHud.xcconfig */,
+				87BDB18A3B5C16B3379D1B135FC9B83C /* DNTLnavBarHud-dummy.m */,
+				9B887900210062B566F879BE21504BA3 /* DNTLnavBarHud-prefix.pch */,
+				BADC0226D2A76277A2A146207E016FAB /* DNTLnavBarHud-umbrella.h */,
+				DACB6486173B78BDC364CBDA3AA48A31 /* Info.plist */,
+				BCBF722601ACB8B0E454434058E9C4E5 /* ResourceBundle-DNTLnavBarHud-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DNTLnavBarHud";
+			sourceTree = "<group>";
+		};
+		B26F3D5092FA3CEF0019C5FC59C4D3D0 /* Pods-DNTLnavBarHud_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A6E68E6A80DC7A55ED2F6F48AF597CCA /* Info.plist */,
+				81EC3358F35A57838027E6B98508FDE2 /* Pods-DNTLnavBarHud_Example.modulemap */,
+				083F53EC286D0D536D465D0166738105 /* Pods-DNTLnavBarHud_Example-acknowledgements.markdown */,
+				519032558A844DAA11BA34902E441671 /* Pods-DNTLnavBarHud_Example-acknowledgements.plist */,
+				0E11C3E7048BFD771085975EE60488B6 /* Pods-DNTLnavBarHud_Example-dummy.m */,
+				15647444913ADDB8B27E86CE1F59C8D4 /* Pods-DNTLnavBarHud_Example-frameworks.sh */,
+				94CD8DCF6617108A101C91B70B974288 /* Pods-DNTLnavBarHud_Example-resources.sh */,
+				96C1B5980BD04C926CEA95ACC23D0939 /* Pods-DNTLnavBarHud_Example-umbrella.h */,
+				B623C3B308F1AD87EDBA2193A3659AB2 /* Pods-DNTLnavBarHud_Example.debug.xcconfig */,
+				0ACDE845F837676142C18C63A1F21609 /* Pods-DNTLnavBarHud_Example.release.xcconfig */,
+			);
+			name = "Pods-DNTLnavBarHud_Example";
+			path = "Target Support Files/Pods-DNTLnavBarHud_Example";
+			sourceTree = "<group>";
+		};
+		BC27281A69F231A77286A19812D63516 /* DNTLnavBarHud */ = {
+			isa = PBXGroup;
+			children = (
+				2E670C8DC5D978E02075EBA8FD29B032 /* BaseVC.h */,
+				9C7C0718101C8F85091163AFA9D638C9 /* BaseVC.m */,
+				85FE5C2226A39549A209784B80D5204A /* NvcHudAble.h */,
+				30EED715D039521F0C9B7680C52D5343 /* NvcTitleAndHud.h */,
+				AB19D03E42C2D9CCCFFA779F343F35CD /* NvcTitleAndHud.m */,
+				C61492FAEF37CE8B8067E365D6B0C19B /* NvcTitleAndHud.xib */,
+				C1F03BA88310C49D60C5B1A064D8A167 /* ReplaceMe.m */,
+				8B89DFCD10861989AA0CBC7D464C86AA /* UIViewController+NvcHud.h */,
+				3BA34470A89C97432C47407D69D85C8C /* UIViewController+NvcHud.m */,
+				6B4E136B1119703D2F874318E65D6D5F /* Pod */,
+				9ED860C9EBDA227C516DBD9B7262709A /* Resources */,
+				A934691B02B2ED5FD66B0342D3BDC592 /* Support Files */,
+			);
+			name = DNTLnavBarHud;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70F4B399C0F7FBAE5C432C1D40964D54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E45B00287868C7A4FE5CEFD5860FF6E /* Pods-DNTLnavBarHud_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD67196DB77930AF8AA811008CD56778 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC29887D41F6C7E5B6E1D88F6DBC5ED /* Pods-DNTLnavBarHud_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA58024785CF2455E8F78223954B495D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7F9405494652AED56ACB894FD4ECA3 /* BaseVC.h in Headers */,
+				DA7D044BB046EA14E5FB9E327DF51F7A /* DNTLnavBarHud-umbrella.h in Headers */,
+				1F3FC27C54661C5AAEC026262A83D8E4 /* NvcHudAble.h in Headers */,
+				B4496DD50B87049D6F8E35525A0AEBD9 /* NvcTitleAndHud.h in Headers */,
+				A42F73A34C72762C3F1F3839EEB1C9D8 /* UIViewController+NvcHud.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		702F29695DFD5B736FA555F4FA3AD43D /* Pods-DNTLnavBarHud_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6FEB32C4BB1BEF15DC11AEBC72E943 /* Build configuration list for PBXNativeTarget "Pods-DNTLnavBarHud_Tests" */;
+			buildPhases = (
+				43ED52CC85B9198A93A63CA93E51C98F /* Sources */,
+				E19415ACE83E3F62EC97D863E5229788 /* Frameworks */,
+				BD67196DB77930AF8AA811008CD56778 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882BDA5D2BCC630956DECC487697DFFB /* PBXTargetDependency */,
+			);
+			name = "Pods-DNTLnavBarHud_Tests";
+			productName = "Pods-DNTLnavBarHud_Tests";
+			productReference = 9AEE49E0E760FE0BD1E4F7ACCE2C6C98 /* Pods_DNTLnavBarHud_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BF39138FF65A3856FEC081435513587 /* DNTLnavBarHud-DNTLnavBarHud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E27741D2494AFFD58E0248A8D086B7A /* Build configuration list for PBXNativeTarget "DNTLnavBarHud-DNTLnavBarHud" */;
+			buildPhases = (
+				5651C8FF21A3533F497FF0CEA14F150B /* Sources */,
+				108F5DEBA4923FA2B8B8BFBB5F725EEF /* Frameworks */,
+				84BF5FC24EFBE3E50EAB1D65C8355038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DNTLnavBarHud-DNTLnavBarHud";
+			productName = "DNTLnavBarHud-DNTLnavBarHud";
+			productReference = CA9DED37287F7F5FDF8B4889DD15D32D /* DNTLnavBarHud.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9A7DA0D4889E5EE8DCFC763825DCA8CD /* Pods-DNTLnavBarHud_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8F7EEEE14E13E3DC107C7B824C7366 /* Build configuration list for PBXNativeTarget "Pods-DNTLnavBarHud_Example" */;
+			buildPhases = (
+				1008A3786796FCDB466A4140787BE5F8 /* Sources */,
+				D6D255C7F08572B58A3A1F29F69E5E81 /* Frameworks */,
+				70F4B399C0F7FBAE5C432C1D40964D54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC5DCB5CC4DA3E73EE93868A0F659F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-DNTLnavBarHud_Example";
+			productName = "Pods-DNTLnavBarHud_Example";
+			productReference = 94BAA9CBB69772DC830D6519519B2813 /* Pods_DNTLnavBarHud_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF6729B94109123AE164F7FC3CB7BFBB /* DNTLnavBarHud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F734F5ADF8F23836AA87C7E047B409F0 /* Build configuration list for PBXNativeTarget "DNTLnavBarHud" */;
+			buildPhases = (
+				27442EB2512AD80E70EA72E5D41FC91A /* Sources */,
+				A1E54361687FDCC01E510533B206E2A7 /* Frameworks */,
+				336B90B64E40F8076062622A1698D3D4 /* Resources */,
+				FA58024785CF2455E8F78223954B495D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85945076F9073F615C9318C26B186196 /* PBXTargetDependency */,
+			);
+			name = DNTLnavBarHud;
+			productName = DNTLnavBarHud;
+			productReference = DDA9DD75F96A7F0D7A2C5D2A6A4E16B1 /* DNTLnavBarHud.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7A704DA52B05C564D0A3D5036C6561D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6729B94109123AE164F7FC3CB7BFBB /* DNTLnavBarHud */,
+				8BF39138FF65A3856FEC081435513587 /* DNTLnavBarHud-DNTLnavBarHud */,
+				9A7DA0D4889E5EE8DCFC763825DCA8CD /* Pods-DNTLnavBarHud_Example */,
+				702F29695DFD5B736FA555F4FA3AD43D /* Pods-DNTLnavBarHud_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		336B90B64E40F8076062622A1698D3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5119C8F22025017BA36F93393F0875D /* DNTLnavBarHud.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF5FC24EFBE3E50EAB1D65C8355038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9149B2D3ED8FA3271DBE5D70DC82AA1E /* NvcTitleAndHud.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1008A3786796FCDB466A4140787BE5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83C92AE987927D4FB78BE6BCF1D4239 /* Pods-DNTLnavBarHud_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27442EB2512AD80E70EA72E5D41FC91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F58AA8621302032B9B0B82964D3DAC /* BaseVC.m in Sources */,
+				2D206241521A2D15EB2AEA8DC2B5306F /* DNTLnavBarHud-dummy.m in Sources */,
+				EB179B7140DEAFF2A34BAAB05D1644CA /* NvcTitleAndHud.m in Sources */,
+				3114D45864FB60128668F73F4FA1919E /* NvcTitleAndHud.xib in Sources */,
+				CCA7EA0E3217C948A378AE032EEAD07C /* ReplaceMe.m in Sources */,
+				F3B7A39E87812F4D185C1560725166E2 /* UIViewController+NvcHud.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43ED52CC85B9198A93A63CA93E51C98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9822585AD6C7B6E776973FAF4EF1F29 /* Pods-DNTLnavBarHud_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5651C8FF21A3533F497FF0CEA14F150B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FC5DCB5CC4DA3E73EE93868A0F659F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DNTLnavBarHud;
+			target = EF6729B94109123AE164F7FC3CB7BFBB /* DNTLnavBarHud */;
+			targetProxy = 489B4457EC2F53E1BC77908BE45E654F /* PBXContainerItemProxy */;
+		};
+		85945076F9073F615C9318C26B186196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DNTLnavBarHud-DNTLnavBarHud";
+			target = 8BF39138FF65A3856FEC081435513587 /* DNTLnavBarHud-DNTLnavBarHud */;
+			targetProxy = 5400FFD6960135F57AB41822AF6AF0B7 /* PBXContainerItemProxy */;
+		};
+		882BDA5D2BCC630956DECC487697DFFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DNTLnavBarHud_Example";
+			target = 9A7DA0D4889E5EE8DCFC763825DCA8CD /* Pods-DNTLnavBarHud_Example */;
+			targetProxy = 9087E71E7CC17E2D38E4D038281A338D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DC4CE141C9FBB33599051B1D9C14A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DFFABAC27488097C52648DE4334980 /* DNTLnavBarHud.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DNTLnavBarHud";
+				INFOPLIST_FILE = "Target Support Files/DNTLnavBarHud/ResourceBundle-DNTLnavBarHud-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = DNTLnavBarHud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		567A386F68D5F942BED336FAF2A010BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DFFABAC27488097C52648DE4334980 /* DNTLnavBarHud.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DNTLnavBarHud";
+				INFOPLIST_FILE = "Target Support Files/DNTLnavBarHud/ResourceBundle-DNTLnavBarHud-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = DNTLnavBarHud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		604F875473CCE390925538FD03A49FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CB18EBDE53B1C8A0EBD2A8D4DBDCE1 /* Pods-DNTLnavBarHud_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNTLnavBarHud_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNTLnavBarHud_Tests/Pods-DNTLnavBarHud_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9ECD93A65A206D82C865D1F8E26CDD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DFFABAC27488097C52648DE4334980 /* DNTLnavBarHud.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DNTLnavBarHud/DNTLnavBarHud-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DNTLnavBarHud/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DNTLnavBarHud/DNTLnavBarHud.modulemap";
+				PRODUCT_MODULE_NAME = DNTLnavBarHud;
+				PRODUCT_NAME = DNTLnavBarHud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB7D7561B9286FDB4F3D5C6D29D2A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2AE7CEAE7ACF0536EAFF31C1E9C7C8E /* Pods-DNTLnavBarHud_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNTLnavBarHud_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNTLnavBarHud_Tests/Pods-DNTLnavBarHud_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6164EF81BE3113790D8C2908D2667B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B623C3B308F1AD87EDBA2193A3659AB2 /* Pods-DNTLnavBarHud_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNTLnavBarHud_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNTLnavBarHud_Example/Pods-DNTLnavBarHud_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BA2DD3E653876E8F2265631649BD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ACDE845F837676142C18C63A1F21609 /* Pods-DNTLnavBarHud_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNTLnavBarHud_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNTLnavBarHud_Example/Pods-DNTLnavBarHud_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF611F5E639F409C0363D27551C69291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DFFABAC27488097C52648DE4334980 /* DNTLnavBarHud.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DNTLnavBarHud/DNTLnavBarHud-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DNTLnavBarHud/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DNTLnavBarHud/DNTLnavBarHud.modulemap";
+				PRODUCT_MODULE_NAME = DNTLnavBarHud;
+				PRODUCT_NAME = DNTLnavBarHud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C6FEB32C4BB1BEF15DC11AEBC72E943 /* Build configuration list for PBXNativeTarget "Pods-DNTLnavBarHud_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7D7561B9286FDB4F3D5C6D29D2A519 /* Debug */,
+				604F875473CCE390925538FD03A49FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E27741D2494AFFD58E0248A8D086B7A /* Build configuration list for PBXNativeTarget "DNTLnavBarHud-DNTLnavBarHud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567A386F68D5F942BED336FAF2A010BE /* Debug */,
+				2DC4CE141C9FBB33599051B1D9C14A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8F7EEEE14E13E3DC107C7B824C7366 /* Build configuration list for PBXNativeTarget "Pods-DNTLnavBarHud_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6164EF81BE3113790D8C2908D2667B4 /* Debug */,
+				B8BA2DD3E653876E8F2265631649BD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F734F5ADF8F23836AA87C7E047B409F0 /* Build configuration list for PBXNativeTarget "DNTLnavBarHud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECD93A65A206D82C865D1F8E26CDD57 /* Debug */,
+				DF611F5E639F409C0363D27551C69291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

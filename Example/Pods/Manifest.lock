@@ -1,0 +1,16 @@
+PODS:
+  - DNTLnavBarHud (0.1.0)
+
+DEPENDENCIES:
+  - DNTLnavBarHud (from `../`)
+
+EXTERNAL SOURCES:
+  DNTLnavBarHud:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DNTLnavBarHud: 9f60e2916068c0f515f5e7fbfe9da7abb53d200f
+
+PODFILE CHECKSUM: 355e466a0164e3a17a039dce41b8a65c071c5c5a
+
+COCOAPODS: 1.5.3

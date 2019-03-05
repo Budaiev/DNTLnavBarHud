@@ -1,0 +1,6 @@
+framework module DNTLnavBarHud {
+  umbrella header "DNTLnavBarHud-umbrella.h"
+
+  export *
+  module * { export * }
+}

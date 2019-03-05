@@ -28,13 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Budaiev/DNTLnavBarHud.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'DNTLnavBarHud/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'DNTLnavBarHud' => ['DNTLnavBarHud/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'DNTLnavBarHud' => ['DNTLnavBarHud/Classes/*.xib']
+     #['DNTLnavBarHud/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

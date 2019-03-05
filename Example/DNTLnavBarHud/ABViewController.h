@@ -7,7 +7,9 @@
 //
 
 @import UIKit;
+#import "BaseVC.h"
+#import "NvcHudAble.h"
 
-@interface ABViewController : UIViewController
+@interface ABViewController : BaseVC
 
 @end

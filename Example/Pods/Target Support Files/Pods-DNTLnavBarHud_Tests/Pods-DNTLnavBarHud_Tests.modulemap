@@ -1,0 +1,6 @@
+framework module Pods_DNTLnavBarHud_Tests {
+  umbrella header "Pods-DNTLnavBarHud_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
