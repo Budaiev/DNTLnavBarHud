@@ -10,16 +10,17 @@
 		1F3FC27C54661C5AAEC026262A83D8E4 /* NvcHudAble.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FE5C2226A39549A209784B80D5204A /* NvcHudAble.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23CD692987A25062A79AC7296B550C9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		2D206241521A2D15EB2AEA8DC2B5306F /* DNTLnavBarHud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BDB18A3B5C16B3379D1B135FC9B83C /* DNTLnavBarHud-dummy.m */; };
-		3114D45864FB60128668F73F4FA1919E /* NvcTitleAndHud.xib in Sources */ = {isa = PBXBuildFile; fileRef = C61492FAEF37CE8B8067E365D6B0C19B /* NvcTitleAndHud.xib */; };
 		5EBB2D977BC9A9FD4219FD6A3A831D61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		6E45B00287868C7A4FE5CEFD5860FF6E /* Pods-DNTLnavBarHud_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C1B5980BD04C926CEA95ACC23D0939 /* Pods-DNTLnavBarHud_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9149B2D3ED8FA3271DBE5D70DC82AA1E /* NvcTitleAndHud.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61492FAEF37CE8B8067E365D6B0C19B /* NvcTitleAndHud.xib */; };
 		9E7F9405494652AED56ACB894FD4ECA3 /* BaseVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E670C8DC5D978E02075EBA8FD29B032 /* BaseVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A42F73A34C72762C3F1F3839EEB1C9D8 /* UIViewController+NvcHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B89DFCD10861989AA0CBC7D464C86AA /* UIViewController+NvcHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4496DD50B87049D6F8E35525A0AEBD9 /* NvcTitleAndHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EED715D039521F0C9B7680C52D5343 /* NvcTitleAndHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9822585AD6C7B6E776973FAF4EF1F29 /* Pods-DNTLnavBarHud_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C25549A830EF848000B90A3400EE5 /* Pods-DNTLnavBarHud_Tests-dummy.m */; };
+		C3608D0F222FD488004D28D5 /* NvcTitleAndHud~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3608D0D222FD487004D28D5 /* NvcTitleAndHud~ipad.xib */; };
+		C3608D10222FD488004D28D5 /* NvcTitleAndHud~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3608D0D222FD487004D28D5 /* NvcTitleAndHud~ipad.xib */; };
+		C3608D11222FD488004D28D5 /* NvcTitleAndHud~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3608D0E222FD487004D28D5 /* NvcTitleAndHud~iphone.xib */; };
+		C3608D12222FD488004D28D5 /* NvcTitleAndHud~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3608D0E222FD487004D28D5 /* NvcTitleAndHud~iphone.xib */; };
 		CAC29887D41F6C7E5B6E1D88F6DBC5ED /* Pods-DNTLnavBarHud_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373987FE8BFF3F796DF6B0BE98598F78 /* Pods-DNTLnavBarHud_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCA7EA0E3217C948A378AE032EEAD07C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F03BA88310C49D60C5B1A064D8A167 /* ReplaceMe.m */; };
 		CD969E887C159E4C5DD6CF4526931AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		D3F58AA8621302032B9B0B82964D3DAC /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C0718101C8F85091163AFA9D638C9 /* BaseVC.m */; };
 		D83C92AE987927D4FB78BE6BCF1D4239 /* Pods-DNTLnavBarHud_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E11C3E7048BFD771085975EE60488B6 /* Pods-DNTLnavBarHud_Example-dummy.m */; };
@@ -57,7 +58,7 @@
 		07DFFABAC27488097C52648DE4334980 /* DNTLnavBarHud.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNTLnavBarHud.xcconfig; sourceTree = "<group>"; };
 		083F53EC286D0D536D465D0166738105 /* Pods-DNTLnavBarHud_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNTLnavBarHud_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0ACDE845F837676142C18C63A1F21609 /* Pods-DNTLnavBarHud_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNTLnavBarHud_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0AE4883EE6853880B920D739B3DBE7D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0AE4883EE6853880B920D739B3DBE7D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0E11C3E7048BFD771085975EE60488B6 /* Pods-DNTLnavBarHud_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNTLnavBarHud_Example-dummy.m"; sourceTree = "<group>"; };
 		15647444913ADDB8B27E86CE1F59C8D4 /* Pods-DNTLnavBarHud_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTLnavBarHud_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2E670C8DC5D978E02075EBA8FD29B032 /* BaseVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseVC.h; path = DNTLnavBarHud/Classes/BaseVC.h; sourceTree = "<group>"; };
@@ -69,17 +70,17 @@
 		711F6A66CB82549C6463630A6E6D95E8 /* Pods-DNTLnavBarHud_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNTLnavBarHud_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		76AB4E8A63BDCA1E142ACE59FDADF59D /* Pods-DNTLnavBarHud_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTLnavBarHud_Tests-resources.sh"; sourceTree = "<group>"; };
 		81EC3358F35A57838027E6B98508FDE2 /* Pods-DNTLnavBarHud_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNTLnavBarHud_Example.modulemap"; sourceTree = "<group>"; };
-		8230DF78306CFE54C687CFB1198A30FF /* DNTLnavBarHud.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DNTLnavBarHud.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8230DF78306CFE54C687CFB1198A30FF /* DNTLnavBarHud.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DNTLnavBarHud.podspec; sourceTree = "<group>"; };
 		85FE5C2226A39549A209784B80D5204A /* NvcHudAble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvcHudAble.h; path = DNTLnavBarHud/Classes/NvcHudAble.h; sourceTree = "<group>"; };
 		87BDB18A3B5C16B3379D1B135FC9B83C /* DNTLnavBarHud-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DNTLnavBarHud-dummy.m"; sourceTree = "<group>"; };
 		8B89DFCD10861989AA0CBC7D464C86AA /* UIViewController+NvcHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NvcHud.h"; path = "DNTLnavBarHud/Classes/UIViewController+NvcHud.h"; sourceTree = "<group>"; };
 		8F33ED9DA8006123C7F1C42680854688 /* DNTLnavBarHud.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DNTLnavBarHud.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94BAA9CBB69772DC830D6519519B2813 /* Pods_DNTLnavBarHud_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DNTLnavBarHud_Example.framework; path = "Pods-DNTLnavBarHud_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94BAA9CBB69772DC830D6519519B2813 /* Pods_DNTLnavBarHud_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNTLnavBarHud_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CD8DCF6617108A101C91B70B974288 /* Pods-DNTLnavBarHud_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTLnavBarHud_Example-resources.sh"; sourceTree = "<group>"; };
-		9596B434EEF092025FB958FC986B85A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9596B434EEF092025FB958FC986B85A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		96C1B5980BD04C926CEA95ACC23D0939 /* Pods-DNTLnavBarHud_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNTLnavBarHud_Example-umbrella.h"; sourceTree = "<group>"; };
-		9AEE49E0E760FE0BD1E4F7ACCE2C6C98 /* Pods_DNTLnavBarHud_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DNTLnavBarHud_Tests.framework; path = "Pods-DNTLnavBarHud_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEE49E0E760FE0BD1E4F7ACCE2C6C98 /* Pods_DNTLnavBarHud_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNTLnavBarHud_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B887900210062B566F879BE21504BA3 /* DNTLnavBarHud-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNTLnavBarHud-prefix.pch"; sourceTree = "<group>"; };
 		9C7C0718101C8F85091163AFA9D638C9 /* BaseVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseVC.m; path = DNTLnavBarHud/Classes/BaseVC.m; sourceTree = "<group>"; };
 		A26DBAD51EEABC77BAD5D918572F930F /* Pods-DNTLnavBarHud_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTLnavBarHud_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -91,13 +92,13 @@
 		B623C3B308F1AD87EDBA2193A3659AB2 /* Pods-DNTLnavBarHud_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNTLnavBarHud_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BADC0226D2A76277A2A146207E016FAB /* DNTLnavBarHud-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNTLnavBarHud-umbrella.h"; sourceTree = "<group>"; };
 		BCBF722601ACB8B0E454434058E9C4E5 /* ResourceBundle-DNTLnavBarHud-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DNTLnavBarHud-Info.plist"; sourceTree = "<group>"; };
-		C1F03BA88310C49D60C5B1A064D8A167 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DNTLnavBarHud/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C3608D0D222FD487004D28D5 /* NvcTitleAndHud~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "NvcTitleAndHud~ipad.xib"; path = "DNTLnavBarHud/Classes/NvcTitleAndHud~ipad.xib"; sourceTree = "<group>"; };
+		C3608D0E222FD487004D28D5 /* NvcTitleAndHud~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "NvcTitleAndHud~iphone.xib"; path = "DNTLnavBarHud/Classes/NvcTitleAndHud~iphone.xib"; sourceTree = "<group>"; };
 		C45C25549A830EF848000B90A3400EE5 /* Pods-DNTLnavBarHud_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNTLnavBarHud_Tests-dummy.m"; sourceTree = "<group>"; };
-		C61492FAEF37CE8B8067E365D6B0C19B /* NvcTitleAndHud.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NvcTitleAndHud.xib; path = DNTLnavBarHud/Classes/NvcTitleAndHud.xib; sourceTree = "<group>"; };
-		CA9DED37287F7F5FDF8B4889DD15D32D /* DNTLnavBarHud.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DNTLnavBarHud.bundle; path = "DNTLnavBarHud-DNTLnavBarHud.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9DED37287F7F5FDF8B4889DD15D32D /* DNTLnavBarHud.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNTLnavBarHud.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8013C080B6E1274A47E926074A5E5CD /* Pods-DNTLnavBarHud_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNTLnavBarHud_Tests.modulemap"; sourceTree = "<group>"; };
 		DACB6486173B78BDC364CBDA3AA48A31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDA9DD75F96A7F0D7A2C5D2A6A4E16B1 /* DNTLnavBarHud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DNTLnavBarHud.framework; path = DNTLnavBarHud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA9DD75F96A7F0D7A2C5D2A6A4E16B1 /* DNTLnavBarHud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DNTLnavBarHud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37DE79B71890613392FACF7FA36DF33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -259,8 +260,8 @@
 				85FE5C2226A39549A209784B80D5204A /* NvcHudAble.h */,
 				30EED715D039521F0C9B7680C52D5343 /* NvcTitleAndHud.h */,
 				AB19D03E42C2D9CCCFFA779F343F35CD /* NvcTitleAndHud.m */,
-				C61492FAEF37CE8B8067E365D6B0C19B /* NvcTitleAndHud.xib */,
-				C1F03BA88310C49D60C5B1A064D8A167 /* ReplaceMe.m */,
+				C3608D0D222FD487004D28D5 /* NvcTitleAndHud~ipad.xib */,
+				C3608D0E222FD487004D28D5 /* NvcTitleAndHud~iphone.xib */,
 				8B89DFCD10861989AA0CBC7D464C86AA /* UIViewController+NvcHud.h */,
 				3BA34470A89C97432C47407D69D85C8C /* UIViewController+NvcHud.m */,
 				6B4E136B1119703D2F874318E65D6D5F /* Pod */,
@@ -419,7 +420,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3608D11222FD488004D28D5 /* NvcTitleAndHud~iphone.xib in Resources */,
 				E5119C8F22025017BA36F93393F0875D /* DNTLnavBarHud.bundle in Resources */,
+				C3608D0F222FD488004D28D5 /* NvcTitleAndHud~ipad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +430,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9149B2D3ED8FA3271DBE5D70DC82AA1E /* NvcTitleAndHud.xib in Resources */,
+				C3608D12222FD488004D28D5 /* NvcTitleAndHud~iphone.xib in Resources */,
+				C3608D10222FD488004D28D5 /* NvcTitleAndHud~ipad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,8 +453,6 @@
 				D3F58AA8621302032B9B0B82964D3DAC /* BaseVC.m in Sources */,
 				2D206241521A2D15EB2AEA8DC2B5306F /* DNTLnavBarHud-dummy.m in Sources */,
 				EB179B7140DEAFF2A34BAAB05D1644CA /* NvcTitleAndHud.m in Sources */,
-				3114D45864FB60128668F73F4FA1919E /* NvcTitleAndHud.xib in Sources */,
-				CCA7EA0E3217C948A378AE032EEAD07C /* ReplaceMe.m in Sources */,
 				F3B7A39E87812F4D185C1560725166E2 /* UIViewController+NvcHud.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
